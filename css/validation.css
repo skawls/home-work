@@ -1,0 +1,26 @@
+@import url("./reset.css");
+
+
+
+
+
+
+.first >a, .second >a {
+    background-image: url("../assets/validation_icon2.png");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-position: left;
+    font-size: 14px;
+    border-radius: 34px;
+    width: 250px;
+    padding: 8px 0 8px 36px;
+    background-position: 16px;
+    display: block;
+    
+}
+
+
+.first{
+    margin-bottom: 12px;
+}
+

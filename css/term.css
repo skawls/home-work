@@ -1,0 +1,66 @@
+@import url("./reset.css");
+
+
+
+header{
+    font-weight: bold;
+}
+
+.term > dd{
+    float: left;
+}
+.term2 > dd{
+    float: left;
+   }
+.term .w3c1{
+    float: left;
+    margin-right: 16px;
+    margin-bottom: 32px;
+}
+
+.term2 .w3c2{
+    float: right;
+    
+}
+
+.box {
+    margin : 0; 
+    padding : 16px;
+    border : 1px solid #999;
+    border-radius : 5px;
+    background-color: #999;
+    width: 250px;
+    font-size: 14px;
+  }
+
+
+header > p{
+    color: black;
+    margin-bottom: 16px;
+}
+.term p{
+    color: #296897;
+    margin-bottom: 4px;
+
+}
+
+.term2 p{
+    color: #296897;
+    margin-bottom: 4px;
+
+}
+
+
+.clearfix:before, .clearfix:after {
+    display: block;
+    content: '';
+    line-height: 0;
+}
+
+.clearfix:after {
+    clear:both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
