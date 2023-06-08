@@ -89,7 +89,7 @@ main{
       
 } 
 
-.login{
+.login__title{
     font-size: 15px;
     font-weight: bold;
     color: yellow;
@@ -126,17 +126,30 @@ main{
 
 
 .mine{
+    height: 36px;
+    width: 220px;
+    padding: 12px 8px;
+    text-align:center;
+    display: inline-block;
+    
+}
+
+.mine1{
+    float: left;
+    
+}
+.mine2{
+    float: right;
+    
+}
     /* background-color: aquamarine; */
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     padding: 4px 8px;
     width: 220px;
     height: 36px;
     justify-content: space-between;
-    align-items: center;
-    
-}
-
+    align-items: center; */
 .mine li{
     font-size: 13px;
     
