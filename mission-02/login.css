@@ -79,11 +79,14 @@ top: 40px;
 
 main{
     position: relative;
-    background: orange;
+    background: linear-gradient(90deg, #ED552F 0%, #E8852E 100%);
     width: 244px;
     height: 161px;
     padding: 12px;
-    /* margin: 15px; */
+    border-radius: 5px;
+    margin: 15px;
+    box-shadow: 5px 5px 5px 5px gray;
+      
 } 
 
 .login{
@@ -98,25 +101,46 @@ main{
     font-size: 14px;
     text-align: left;
     height: 69px;
+
 }
 
-.logingroup{
-    width: 146px;
-    height: 52px;
+
+.logingroup label{
+    width: 56px;
+    display: inline-block;
 }
 
 .logingroup input{
-    width: 90px;
+    width: 88px;
     height: 24px;
+    box-sizing: border-box;
+}
+
+#userName{
+    margin-bottom: 3px;
 }
 
 .inner{
-    background-color: blue;
+    background-color: white;
 }
 
+
 .mine{
-    font-size: 13px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
     padding: 4px 8px;
+    width: 220px;
+    height: 36px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.mine li{
+    font-size: 13px;
+    
+    
 }
 .button{
     font-size: 13px;
@@ -131,3 +155,17 @@ main{
     padding: 0;
     border-radius:5px;
 }
+.inner{
+    border-radius: 6px;
+    height: 110px;
+
+}
+.line{
+    display: block;
+    width: 210px;
+    height: 1px;
+    position: absolute;
+    top: 105px;
+    right: 20px;
+    background-color: rgb(148, 148, 148);
+} 
