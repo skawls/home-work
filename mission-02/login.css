@@ -1,25 +1,133 @@
 @import url("./../mission-01/css/reset.css");
+@import url("./../mission-01/css/base.css");
+@import url("./../mission-01/css/normalize.css");
+@import url("./../mission-01/css/theme.css");
 
 
-.loginHeader{
+
+/* .loginHeader{
     position: relative;
-}
-.login {
+    padding: 12px;
     background-color: yellowgreen;
     width: 244px;
     height: 161px;
-    padding: 12px;
+} */
+/* .login{
+    font-size: 15px;
+    font-weight: bold;
+    color: yellow;
+    margin-bottom: 8px;
+    padding: 0;
+} */
+/* fieldset{
+    position: relative;
+    background: blue;
+    width: 220px;
+    height: 106px; 
+
+}*/
+
+/* .device{
+    background-color: pink;
+    position: absolute;
+    top: 32px;
+    width: 220px;
+    height: 106px;
+} */
+/* .logingroup{
+    font-size: 14px;
+    background-color: blue;
+
+  
+    /* position: absolute; */
+ 
+
+/* .logingroup input{
+    width: 90px;
+    height: 24px;
 }
-.logingroup{
-    display: flow-root;
-}
+.logingroup label{
+    width: 146px;
+} */
 
 
-
-ul {
+/* ul {
     list-style:none;
 }
  
 li {
     float: left;
+} */
+
+/* .mine{
+background-color: white;
+display: inline-block;
+font-size: 1px;
+position: absolute;
+top: 40px;
+} */
+
+/* .line{
+    display: block;
+    width: 204px;
+    height: 2px;
+    position: absolute;
+    top: 120px;
+    background-color: black;
+} */
+
+
+main{
+    position: relative;
+    background: orange;
+    width: 244px;
+    height: 161px;
+    padding: 12px;
+    /* margin: 15px; */
+} 
+
+.login{
+    font-size: 15px;
+    font-weight: bold;
+    color: yellow;
+    margin-bottom: 8px;
+}
+
+.device{
+    padding: 8px;
+    font-size: 14px;
+    text-align: left;
+    height: 69px;
+}
+
+.logingroup{
+    width: 146px;
+    height: 52px;
+}
+
+.logingroup input{
+    width: 90px;
+    height: 24px;
+}
+
+.inner{
+    background-color: blue;
+}
+
+.mine{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+.button{
+    font-size: 13px;
+    color: white;
+    background-color: #ED552F;
+    border-style: none;
+    width: 50px;
+    height: 53px;
+    position: absolute;
+    right: 20px;
+    top: 46px;
+    padding: 0;
+    border-radius:5px;
 }
