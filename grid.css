@@ -1,0 +1,81 @@
+@import url("./mission-01/css/base.css");
+@import url("./mission-01/css/normalize.css");
+@import url("./mission-01/css/reset.css");
+@import url("./mission-01/css/theme.css");
+@import url("./mission-01/css/grid.css");
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  align-items: start;
+  width: 380px;
+  margin: 20px;
+}
+
+.title {
+  color: #ED552F;
+  font-weight: bold;
+  font-size: 14px;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.image-container {
+  grid-column: 1;
+  display: grid;
+  margin-left: -20px;
+}
+
+.image-text{
+  text-align: center;
+  font-size: 14px;
+}
+
+.additional-text {
+  font-weight: bold;
+  font-size: 14px;
+  justify-self: end;
+  grid-column: 3;
+}
+
+
+
+
+.title-container {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  grid-column: 3 / span 2;
+  }
+
+@media (min-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.text-container {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  row-gap: 10px;
+  grid-column: 3 / span 2;
+  line-height: 100%;
+  }
+ 
+
+.text1{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.text2{
+  font-size: 14px;
+}
+
+.text3{
+  font-size: 14px;
+}
