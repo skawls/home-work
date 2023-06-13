@@ -7,7 +7,7 @@
 
 1. grid로 배치하기
 
-![grid](./mission-01/assets/news.PNG)
+![grid](./../mission-01/assets/news.PNG)
 
 ## Description
 
