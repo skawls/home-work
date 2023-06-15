@@ -1,0 +1,97 @@
+@import url("./../mission-01/css/grid.css");
+@import url("./../mission-01/css/normalize.css");
+@import url("./../mission-01/css/reset.css");
+@import url("./../mission-01/css/base.css");
+@import url("./../mission-01/css/theme.css");
+
+
+
+main{
+    background: linear-gradient(180deg, #CCCCCC 0%, #EEEEEE 100%);
+    width: 190px;
+    height: 148px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 1px solid #A3A3A3;
+    border-radius: 5px;
+}
+section{
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+section > h2 > span{
+    color: #ED552F;
+}
+
+ol{
+    font-size: 13px;
+    
+}
+
+ol > li{
+    padding-bottom: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+}
+
+  li > span{
+     background: #A3A3A3;
+    border-radius: 5px;
+    width: 16px;
+    height: 16px;
+    justify-content: center;
+    display: flex;
+    margin-right: 4px;
+    color:#FFFFFF;
+    font-size: 11px;
+    
+}
+
+
+
+
+li::before {
+    content: "";
+    background: url(./../mission-01/assets/rank.png) no-repeat;
+    background-size: 9px 55px;
+    border-radius: 5px;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    margin-right: 4px;
+    color: #FFFFFF;
+    font-size: 11px;
+}
+
+.spriteUp::before {
+    background-position: 0 0;
+}
+
+.spriteDown::before {
+    background-position: 0 -44px;
+}
+
+.spriteNomal::before {
+    background-position: 0 -20px;
+}
